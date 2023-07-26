@@ -1,17 +1,9 @@
-import { LoginForm } from "@/app/components/auth/LoginForm";
-import { NextPage } from "next";
-import Head from "next/head";
+import { AuthPage } from "@/components/auth";
 
-const AuthPage: NextPage = () => {
+
+const Auth = () => {
   return (
-    <>
-      <Head>
-        <title> Dashboard / Auth</title>
-      </Head>
-      <main>
-        <LoginForm />
-      </main>
-    </>
+   <AuthPage />
   );
 };
-export default AuthPage;
+export default Auth;
